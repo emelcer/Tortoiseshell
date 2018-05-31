@@ -1,0 +1,15 @@
+/*Universal*/
+html {
+
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+header {
+  background-color: cadetblue;
+}

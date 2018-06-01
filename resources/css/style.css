@@ -1,6 +1,8 @@
 /*Universal*/
 html {
-
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
 }
 
 .container {
@@ -12,4 +14,69 @@ html {
 
 header {
   background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin: 0 1rem 0 2rem;
+  height: 1.5rem;
+}
+
+.logo span {
+  font-size: 1rem;
+}
+
+nav {
+  margin: 1rem 0;
+}
+
+nav span {
+  padding-right: 2rem;
+}
+
+/*Main site content*/
+
+/*Banner*/
+
+.banner {
+  background-image: url("../../resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 31rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-box-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 962px;
+  margin: 0 auto;
+}
+
+.banner-box {
+  background-color: white;
+  position: relative;
+  top: 13.5rem;
+  margin-right: -2rem;
+}
+
+.banner-box h1 {
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
 }
